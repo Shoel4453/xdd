@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    padding: 10px;
+    padding-top: 50px;
+    margin: 10px;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: black;  
+    background-color: -webkit-liner-gradient(to right, white,black);
+    background-color: linear-gradient(to right, white, black);
+
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.container .letra{
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 1px;
+
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 60px;
+
+    transition: all .2s ease-in-out;
+
+    cursor: pointer;
+    
+    border-radius: 200px 0px 200px 200px;
+    -moz-border-radius: 200px 0px 200px 200px;
+    -webkit-border-radius: 200px 0px 200px 200px;
+    border: 25px solid #002247;
+
+}
+.letra:hover {
+    background-color: white;
+    color: black;
+
+    transform: scale(1.1)rotate(-10deg);
+
+}
+
+.letra:active {
+    background-color: red;
+    color: black;
+}
+.op {
+    padding: 10px;
+    padding-top: 50px;
+    margin: 10px;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: black;  
+    background-color: -webkit-liner-gradient(to right, white,black);
+    background-color: linear-gradient(to right, white, black);
+
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);   
+}
+
+.op .o {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 1px;
+
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 60px;
+
+    transition: all .2s ease-in-out;
+
+    cursor: pointer;
+    
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 25px solid #ffffff; 
+}
+.o:hover {
+    background-color: white;
+    color: black;
+
+    transform: scale(1.1)rotate(-10deg);
+   
+}
+.o:active {
+    background-color: blueviolet;
+    color: black;
+}
